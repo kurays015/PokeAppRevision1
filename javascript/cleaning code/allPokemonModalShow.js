@@ -13,7 +13,7 @@ const allPokemonModalShow = async (pokemonImg, pokemonsData) => {
       fetchPokemonAbilities(pokemons);
 
       //show modal for every pokemon clicked
-       displayAllModal.showModal();     
+       // displayAllModal.showModal();     
        //add class animation to modal
        displayAllModal.classList.add('zoom-in')
        
