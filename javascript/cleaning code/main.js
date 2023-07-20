@@ -65,7 +65,7 @@ const loaderContainer = document.querySelector('#loaderContainer');
 const allPokemons = async () => {
 
   try {
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon/?limit=1281')
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/?limit=500')
     const data = await response.json();
     filterPokemon(data.results);
     pokemonAbilitiesData(data.results);
